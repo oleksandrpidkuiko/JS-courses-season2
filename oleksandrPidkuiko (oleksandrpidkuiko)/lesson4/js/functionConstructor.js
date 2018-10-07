@@ -15,7 +15,3 @@ function Car(brand, fuellTank, ownerFullName) {
     };
 }
 let car = new Car('mitsubishi', 60, 'Pidkuiko Oleksandr');
-
-
-
-
