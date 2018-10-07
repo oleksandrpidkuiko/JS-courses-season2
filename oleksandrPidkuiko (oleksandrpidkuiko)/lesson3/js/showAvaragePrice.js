@@ -71,7 +71,7 @@ function average() {
     return sum === 0 ? sum : sum / arguments.length;
 }
 
-let newCars = cars.map(function (currentValue) {
+let newCars = cars.map((currentValue)=> {
     return {
         'id': currentValue.id,
         'name': currentValue.name,
