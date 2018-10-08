@@ -19,7 +19,6 @@ Object.defineProperty(user, 'info', {
 Object.defineProperty(user, 'businessCard', {
     get: function() {
         return new BusinessCard();
-
     }
 });
 

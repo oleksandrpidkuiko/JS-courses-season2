@@ -1,6 +1,6 @@
 'use strict';
 
-function Car(brand, fuellTank, ownerFullName) {
+function Car(brand, fuellTank, ownerFullName){
     this.brand = brand;
     this.fuelTank = fuellTank;
     this.ownerFullName = ownerFullName;
