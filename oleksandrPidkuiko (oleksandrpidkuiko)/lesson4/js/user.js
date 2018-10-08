@@ -6,7 +6,6 @@ let user = {
     employment: 'programmer',
     number: '0931011010'
 };
-
 Object.defineProperty(user, 'info', {
     get: function() {
         return {
@@ -21,12 +20,10 @@ Object.defineProperty(user, 'businessCard', {
         return new BusinessCard();
     }
 });
-
 function BusinessCard(name, employment) {
     this.name = user.name;
     this.employment = user.employment;
 }
-
 user.showNumber = function () {
     return this.number;
 };
